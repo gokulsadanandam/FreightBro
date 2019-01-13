@@ -1,0 +1,184 @@
+/* Styles for Header Box  */
+header {
+    padding: 10px;
+    box-shadow: 2px 2px 4px;
+}
+
+/* Styles for Search Box. Consists of logo,search-query box and sort element */
+
+.search-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0px 16px;
+}
+
+.search-box>.logo {
+    font-size: 25px;
+    color: #354AAD;
+    margin: auto;
+}
+
+.search-box>.box {
+    width: 70%;
+    margin: auto;
+}
+
+.box {
+    background-image: url('/assets/images/search-solid.svg') no-repeat;
+}
+
+.box>input {
+    width: 100%;
+    background-image: url(/assets/images/search-solid.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: cover;
+    background-size: contain;
+    padding: 5px;
+    text-indent: 25px;
+}
+
+.sort,
+.sort>md-input-container {
+    margin: 6px auto;
+}
+
+/* Styles for Wrapper Element  */
+
+.wrapper {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+}
+
+/* Styles when Search Query is Not Found */
+.query-error {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 50px;
+    opacity: 1;
+    transition: opacity 0.15s
+}
+
+/* Styles for Each Card Element. Takes care of card margins, animations and other size factors  */
+
+.card {
+    margin: 8px;
+}
+
+
+.card.ng-enter-stagger {
+    transition-delay: 0.15s;
+}
+
+.card.ng-leave-stagger {
+    transition-delay: 0.15s;
+    opacity: 1
+}
+
+.card.ng-enter {
+    transition: 1s linear all;
+    opacity: 0;
+}
+
+.card.ng-enter.ng-enter-active {
+    opacity: 1
+}
+
+.card.ng-leave.ng-leave-active {
+    opacity: 0
+}
+
+.card>md-card>md-card-footer {
+    padding: 0px;
+}
+
+.card>md-card>md-card-footer>.md-actions {
+    margin: 0px;
+}
+
+.card>md-card>md-card-footer>.md-actions>.md-button {
+    width: 50%;
+    margin: 0px !important;
+}
+
+/* Styles for Expiry Element */
+.expiry {
+    font-style: italic;
+    color: grey;
+    padding: 10px 0px;
+}
+
+.expiry>span {
+    font-size: 12px;
+}
+
+/* Styles for Card Svg Images */
+
+.sub-vendor>img,
+.expiry>img,
+.heading>img {
+    width: 20px;
+    height: 15px;
+}
+
+/* Styles for Vendor Element */
+
+
+.sub-vendor {
+    padding: 10px 0px;
+}
+
+.sub-vendor>span {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+/* Styles for Row Wrapper Element. Row Wrapper Elements are made of set of Heading and Corresponding Heading Values */
+
+.row-wrapper {
+    display: flex;
+    flex-flow: row;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+.row-wrapper>.names {
+    color: black;
+    font-weight: bolder;
+}
+
+.row-wrapper>.heading {
+    color: #ADB5BD;
+}
+
+/* Styles for Schedule Element */
+
+.schedule {
+    padding: 10px 0px;
+}
+
+.schedule>.loader {
+    width: 20%;
+    margin: auto;
+}
+
+.schedule>.schedule-error {
+    display: flex;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: oblique;
+    justify-content: center;
+}
+
+/* Styles for Footer Buttons */
+.buttons>.md-button {
+    width: 50%;
+    margin: 0px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html ng-app="dashboard" ng-cloak>
+<head>
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="/components/dashboard/dashboard.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.js"></script>
+    <script src="/components/dashboard/dashboard.js"></script>
+</head>
+<body ng-controller="dashboard">
+    <header>
+        <div class="search-box">
+            <div class="logo">
+                <span>FreightBro</span>
+            </div>
+            <div class="box">
+                <input type="text" name="search" placeholder="Search by name" ng-change="search()" ng-model="query">
+            </div>
+            <div class="sort">
+                <md-input-container>
+                    <label>Sort</label>
+                    <md-select ng-model="sortvalue" ng-change="sort()">
+                        <md-select-label>Sort</md-select-label>
+                        <md-option ng-value="opt" ng-repeat="opt in options">{{ opt }}</md-option>
+                    </md-select>
+                </md-input-container>
+            </div>
+        </div>
+    </header>
+    <div ng-if="!result.length && query.length" class="query-error">
+        Sorry! We couldn't find your query :( !
+    </div>
+    <section class="wrapper">
+        <div class="card" ng-repeat="items in result " ng-if="result.length">
+            <md-card>
+                <md-card-content>
+                    <div class="expiry">
+                        <img src="/assets/images/calendar-alt-regular.svg"></i>
+                        <span>{{items.expiry | uppercase}}</span>
+                    </div>
+                    <div class="sub-vendor">
+                        <img src="/assets/images/shipping-fast-solid.svg"></i>
+                        <span>{{items.subVendor}}</span>
+                    </div>
+                    <div class="row-wrapper">
+                        <div class="heading">
+                            Rates by
+                        </div>
+                        <div class="names">
+                            {{items.vendor}}
+                        </div>
+                    </div>
+                    <div class="row-wrapper">
+                        <div class="heading">
+                            Service Type
+                        </div>
+                        <div class="names">
+                            {{items.serviceType}}
+                        </div>
+                    </div>
+                    <div class="row-wrapper">
+                        <div class="heading">
+                            <img src="/assets/images/shipping-fast-solid.svg"></i>
+                            {{items.legName}}
+                        </div>
+                        <div class="names">
+                            {{items.legCurrency}} {{items.legCurrencyCost}}
+                        </div>
+                    </div>
+                    <div class="schedule">
+                        <div class="schedule-error">
+                            <md-progress-circular ng-if="!schedule.length" md-mode="indeterminate" md-diameter="48"></md-progress-circular>
+                            <span ng-if="schedule[$index].error">{{schedule[$index]['error'] | uppercase}}</span>
+                        </div>
+                    </div>
+                    <div class="row-wrapper">
+                        <div class="names">
+                            Total Cost
+                        </div>
+                        <div class="names">
+                            <span>{{items.totalCostCurrency}}</span>
+                            <span>{{items.totalCost | number:2}}</span>
+                        </div>
+                    </div>
+                </md-card-content>
+                <md-card-footer>
+                    <div class="md-actions" layout="row" layout-align="center">
+                        <md-button class="md-raised md-primary">details</md-button>
+                        <md-button class="md-raised md-warn">Add to quote</md-button>
+                    </div>
+                </md-card-footer>
+            </md-card>
+        </div>
+    </section>
+</body>
+</html>

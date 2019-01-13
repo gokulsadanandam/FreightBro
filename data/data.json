@@ -1,0 +1,5213 @@
+{
+  "status": "success",
+  "data": {
+    "result_meta": {
+      "search_param": {
+        "mode": "SEA-FCL",
+        "pickup": {
+          "is_selected": 0,
+          "pickup_location": null,
+          "pickup_city": null,
+          "lat": 0,
+          "lng": 0,
+          "country_code": null
+        },
+        "delivery": {
+          "is_selected": 0,
+          "delivery_location": null,
+          "delivery_city": null,
+          "lat": 0,
+          "lng": 0,
+          "country_code": null
+        },
+        "origin_port": {
+          "port_id": 963,
+          "portcode_portname": "INNSA/Jawaharlal Nehru (Nhava Sheva) (INNSA), India, Asia",
+          "global_port_code": "INNSA",
+          "country code": "India",
+          "port_code": "NSA",
+          "portname": "Jawaharlal Nehru (Nhava Sheva)",
+          "city": "Mumbai",
+          "lat": "18.94993600",
+          "long": "72.95118800",
+          "region": null
+        },
+        "destination_port": {
+          "port_id": 419,
+          "portcode_portname": "DEHAM/Port of Hamburg (DEHAM), Germany, Europe",
+          "global_port_code": "DEHAM",
+          "country code": "Germany",
+          "port_code": "HAM",
+          "portname": "Port of Hamburg",
+          "city": "Hamburg",
+          "lat": "53.52472222",
+          "long": "9.96333333",
+          "region": null
+        },
+        "origin_charges": false,
+        "origin_customs": false,
+        "destination_charges": false,
+        "destination_customs": false,
+        "inco_term": null,
+        "load_details": [],
+        "load_data": {
+          "load_type": "container",
+          "load_details_value": [
+            {
+              "qty": 2,
+              "bl_qty": 1,
+              "type": "20GP",
+              "load_metrics": [
+                {
+                  "weight_qty": 0,
+                  "weight_unit": "KGS",
+                  "volume_qty": 0,
+                  "volume_unit": "CBM"
+                },
+                {
+                  "weight_qty": 0,
+                  "weight_unit": "KGS",
+                  "volume_qty": 0,
+                  "volume_unit": "CBM"
+                }
+              ]
+            },
+            {
+              "qty": 1,
+              "bl_qty": 1,
+              "type": "40GP",
+              "load_metrics": [
+                {
+                  "weight_qty": 0,
+                  "weight_unit": "KGS",
+                  "volume_qty": 0,
+                  "volume_unit": "CBM"
+                }
+              ]
+            },
+            {
+              "qty": 2,
+              "bl_qty": 1,
+              "type": "40HC",
+              "load_metrics": [
+                {
+                  "weight_qty": 0,
+                  "weight_unit": "KGS",
+                  "volume_qty": 0,
+                  "volume_unit": "CBM"
+                },
+                {
+                  "weight_qty": 0,
+                  "weight_unit": "KGS",
+                  "volume_qty": 0,
+                  "volume_unit": "CBM"
+                }
+              ]
+            }
+          ]
+        },
+        "pickup_port_distence": {
+          "distence": 0,
+          "unit": "KM"
+        },
+        "delivery_port_distence": {
+          "distence": 0,
+          "unit": "KM"
+        },
+        "hazardous_material": false,
+        "shipment_insurance": false,
+        "commodity": null,
+        "search_name": "INNSA to DEHAM / 14 Jan 2019",
+        "cargo_ready_date": "2019-01-14",
+        "fetch_network_rates": true,
+        "fetch_nearby_port_data": false,
+        "destination_delivery": null,
+        "impo_expo": null,
+        "shipper_user_id": "5a94a5c0-10da-11e9-a1f9-918a35af5002",
+        "user": {
+          "id": "5a94a5c0-10da-11e9-a1f9-918a35af5002",
+          "user_type": "60",
+          "email": "developer@freightbro.com",
+          "user_mobile": "88984155",
+          "user_alternate_number": null,
+          "user_first_name": "Frontend",
+          "user_last_name": "Interview-Task",
+          "user_dob": null,
+          "active_status": 1,
+          "user_company_id": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+          "created_by": "4bdc3be0-ac9e-11e8-8d3b-abef409f5853",
+          "user_region_id": null,
+          "user_base_currency": "INR",
+          "user_address": null,
+          "is_god_user": 0,
+          "is_super_user": 0,
+          "profile": null,
+          "domain": "fwda.devship.freightbro.com",
+          "advanced_search": 0,
+          "allow_personal_email": 0,
+          "personal_email_id": null,
+          "send_cc": 0,
+          "email_signature": null,
+          "email_signature_required": 0,
+          "cc_email": null,
+          "role_id": "fc14a2c0-02aa-11e9-82b5-35cb4fd97ce8",
+          "team": null,
+          "tags": [
+            "DEVELOPMENT"
+          ],
+          "locations": [
+            "FreightBro"
+          ],
+          "department": "TECHNICAL DEPT.",
+          "designation": "SENIOR FRONTEND DEVELOPER",
+          "team_manager": 0
+        },
+        "nearby_ports": {
+          "distance_range": {
+            "range": "50",
+            "unit": "K"
+          },
+          "origin": {
+            "portcode": "INNSA",
+            "nearby_ports": [
+              {
+                "portcode": "INBAP6",
+                "distance": 10,
+                "unit": "K"
+              },
+              {
+                "portcode": "INBOM",
+                "distance": 7,
+                "unit": "K"
+              },
+              {
+                "portcode": "INNMB",
+                "distance": 25,
+                "unit": "K"
+              },
+              {
+                "portcode": "INDMT",
+                "distance": 28,
+                "unit": "K"
+              }
+            ]
+          },
+          "destination": {
+            "portcode": "DEHAM",
+            "nearby_ports": [
+              {
+                "portcode": "DEGLU",
+                "distance": 47,
+                "unit": "K"
+              },
+              {
+                "portcode": "DEHTJ",
+                "distance": 5,
+                "unit": "K"
+              },
+              {
+                "portcode": "DELNU",
+                "distance": 43,
+                "unit": "K"
+              },
+              {
+                "portcode": "DEBUZ",
+                "distance": 33,
+                "unit": "K"
+              },
+              {
+                "portcode": "DEGET",
+                "distance": 28,
+                "unit": "K"
+              },
+              {
+                "portcode": "DEGIC",
+                "distance": 23,
+                "unit": "K"
+              },
+              {
+                "portcode": "DEOTK",
+                "distance": 12,
+                "unit": "K"
+              },
+              {
+                "portcode": "DEWED",
+                "distance": 19,
+                "unit": "K"
+              },
+              {
+                "portcode": "DEHPE",
+                "distance": 20,
+                "unit": "K"
+              },
+              {
+                "portcode": "DEMOE",
+                "distance": 49,
+                "unit": "K"
+              }
+            ]
+          },
+          "combinations": [
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEHTJ"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEOTK"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEWED"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEHPE"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEGIC"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEGET"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEBUZ"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DELNU"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEGLU"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEMOE"
+            },
+            {
+              "origin_port": "INBOM",
+              "destination_port": "DEHAM"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEHTJ"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEOTK"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEWED"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEHPE"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEGIC"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEGET"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEBUZ"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DELNU"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEGLU"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEMOE"
+            },
+            {
+              "origin_port": "INBAP6",
+              "destination_port": "DEHAM"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEHTJ"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEOTK"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEWED"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEHPE"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEGIC"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEGET"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEBUZ"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DELNU"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEGLU"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEMOE"
+            },
+            {
+              "origin_port": "INNMB",
+              "destination_port": "DEHAM"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEHTJ"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEOTK"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEWED"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEHPE"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEGIC"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEGET"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEBUZ"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DELNU"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEGLU"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEMOE"
+            },
+            {
+              "origin_port": "INDMT",
+              "destination_port": "DEHAM"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DEHTJ"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DEOTK"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DEWED"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DEHPE"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DEGIC"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DEGET"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DEBUZ"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DELNU"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DEGLU"
+            },
+            {
+              "origin_port": "INNSA",
+              "destination_port": "DEMOE"
+            }
+          ]
+        }
+      },
+      "currency_conversion_rates": [
+        {
+          "_id": "5c335c33ad334f1fae140058",
+          "vendor_id": 0,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c33ad334f1fae140057",
+          "vendor_id": 108,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c33ad334f1fae140056",
+          "vendor_id": 109,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c20ad334f1fae140013",
+          "vendor_id": 0,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c20ad334f1fae140012",
+          "vendor_id": 108,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c20ad334f1fae140011",
+          "vendor_id": 109,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c11ad334f1fae13ffd8",
+          "vendor_id": 0,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c11ad334f1fae13ffd7",
+          "vendor_id": 108,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c11ad334f1fae13ffd6",
+          "vendor_id": 109,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c0cad334f1fae13ffc4",
+          "vendor_id": 0,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        },
+        {
+          "_id": "5c335c0cad334f1fae13ffc3",
+          "vendor_id": 108,
+          "curr_data": {
+            "USD": 1,
+            "AED": 3.6727,
+            "ALL": 108,
+            "AMD": 483.25,
+            "ANG": 1.785,
+            "AOA": 307.63,
+            "ARS": 37.339,
+            "AUD": 1.40851267,
+            "AZN": 1.6995,
+            "BBD": 2,
+            "BDT": 83.95,
+            "BGN": 1.71518341,
+            "BHD": 0.3768,
+            "BRL": 3.73510821,
+            "BSD": 1,
+            "BWP": 10.5547,
+            "BYN": 2.17,
+            "CAD": 1.33926764,
+            "CHF": 0.98493924,
+            "CLP": 680.86,
+            "CNY": 6.86243509,
+            "COP": 3191.7,
+            "CZK": 22.41188512,
+            "DKK": 6.53962432,
+            "DOP": 50.3,
+            "DZD": 118.322,
+            "EGP": 17.875,
+            "ETB": 28.0617,
+            "EUR": 0.87572817,
+            "FJD": 2.13,
+            "GBP": 0.78647013,
+            "GEL": 2.6644,
+            "GHS": 4.8935,
+            "GNF": 9090,
+            "GTQ": 7.7275,
+            "HKD": 7.83427921,
+            "HNL": 24.271,
+            "HRK": 6.5350055,
+            "HUF": 281.28893892,
+            "IDR": 14182.51266173,
+            "ILS": 3.70307049,
+            "INR": 69.66694947,
+            "IQD": 1190,
+            "IRR": 42000,
+            "ISK": 117.50575119,
+            "JMD": 126.77,
+            "JOD": 0.7087,
+            "JPY": 108.2616663,
+            "KES": 101.73,
+            "KHR": 3964.3,
+            "KRW": 1119.32951123,
+            "KWD": 0.303,
+            "KZT": 375.77,
+            "LAK": 8547,
+            "LBP": 1505.7,
+            "LKR": 182.2,
+            "MAD": 9.4923,
+            "MDL": 17.075,
+            "MKD": 53.83,
+            "MMK": 1535,
+            "MUR": 33.46,
+            "MXN": 19.49072363,
+            "MYR": 4.12807552,
+            "NAD": 13.918,
+            "NGN": 361,
+            "NOK": 8.60724898,
+            "NZD": 1.48502818,
+            "OMR": 0.3848,
+            "PAB": 1,
+            "PEN": 3.34588269,
+            "PGK": 3.3645,
+            "PHP": 52.40567258,
+            "PKR": 138.69,
+            "PLN": 3.76001485,
+            "PYG": 5987,
+            "QAR": 3.6406,
+            "RON": 4.08336024,
+            "RSD": 103.5449,
+            "RUB": 67.68489738,
+            "SAR": 3.7513295,
+            "SCR": 13.55,
+            "SEK": 8.95460598,
+            "SGD": 1.35972682,
+            "THB": 32.04002242,
+            "TJS": 9.4317,
+            "TND": 3.0127,
+            "TRY": 5.376997,
+            "TTD": 6.7585,
+            "TWD": 30.81222913,
+            "TZS": 2293,
+            "UAH": 27.7845,
+            "UYU": 32.445,
+            "UZS": 8305,
+            "VEF": 248209,
+            "VND": 23161.27795767,
+            "XAF": 572.94,
+            "XCD": 2.7,
+            "XOF": 572.94,
+            "XPF": 104,
+            "ZAR": 13.99953433,
+            "ZMW": 11.86
+          }
+        }
+      ],
+      "airlines": []
+    },
+    "result_data": {
+      "msr_rates": {
+        "data": {
+          "delta": {
+            "url": null,
+            "data": null
+          },
+          "rates": [
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": false,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 1780,
+                  "total_units": 2,
+                  "charge_cost": 3560,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 248014.3401132,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 3560,
+                  "id": "5c335c33ad334f1fae14001c"
+                },
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 2277,
+                  "total_units": 1,
+                  "charge_cost": 2277,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 158631.64394319,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 2277,
+                  "id": "5c335c33ad334f1fae14001d"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "msr_rates",
+              "_id": "5c335c33ad334f1fae14002f",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 108,
+              "sub_vendor_id": 2,
+              "service_type": "",
+              "via_route": "",
+              "transit_time": "",
+              "contract_number": "",
+              "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+              "inclusions": "",
+              "expiry": "2020-01-01T00:00:00.000Z",
+              "other_charges": "",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 1,
+                "40GP": 1,
+                "40HC": 0
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 406645.98405639,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 5837,
+              "leg_currency": "USD",
+              "batchcode": "Ihn5aZt1WIKAIcENf2Kilx3xrl7kn4QpMOvYPiPB",
+              "vendor": {
+                "vendor_name": "FWDA"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "CMACGM",
+                "carrier_code": "CMDU"
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "2",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "",
+                    "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 1,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 406821.67,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 5837,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "Ihn5aZt1WIKAIcENf2Kilx3xrl7kn4QpMOvYPiPB",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "CMACGM",
+                      "carrier_code": "CMDU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 1780,
+                        "total_units": 2,
+                        "charge_cost": 3560,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 248121.49031803,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 3560
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2277,
+                        "total_units": 1,
+                        "charge_cost": 2277,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 158700.17793656,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 2277
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "2",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "",
+                    "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 1,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 406821.67,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 5837,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "Ihn5aZt1WIKAIcENf2Kilx3xrl7kn4QpMOvYPiPB",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "CMACGM",
+                      "carrier_code": "CMDU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 1780,
+                        "total_units": 2,
+                        "charge_cost": 3560,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 248121.49031803,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 3560
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2277,
+                        "total_units": 1,
+                        "charge_cost": 2277,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 158700.17793656,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 2277
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            },
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": false,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 575,
+                  "total_units": 1,
+                  "charge_cost": 575,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 40058.49594525,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 575,
+                  "id": "5c335c33ad334f1fae14001e"
+                },
+                {
+                  "charge_id": "30008",
+                  "charge_name": "Emergency Bunker Surcharge (EBS)",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 110,
+                  "total_units": 1,
+                  "charge_cost": 110,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40GP",
+                  "global_charge_id": "FBMT1690",
+                  "customer_currency_cost": 7663.3644417,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 110,
+                  "id": "5c335c33ad334f1fae14001f"
+                },
+                {
+                  "charge_id": "30050",
+                  "charge_name": "Environmental fee",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 25,
+                  "total_units": 1,
+                  "charge_cost": 25,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40GP",
+                  "global_charge_id": "",
+                  "customer_currency_cost": 1741.67373675,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 25,
+                  "id": "5c335c33ad334f1fae140020"
+                },
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 575,
+                  "total_units": 2,
+                  "charge_cost": 1150,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40HC",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 80116.9918905,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 1150,
+                  "id": "5c335c33ad334f1fae140021"
+                },
+                {
+                  "charge_id": "30008",
+                  "charge_name": "Emergency Bunker Surcharge (EBS)",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 110,
+                  "total_units": 2,
+                  "charge_cost": 220,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40HC",
+                  "global_charge_id": "FBMT1690",
+                  "customer_currency_cost": 15326.7288834,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 220,
+                  "id": "5c335c33ad334f1fae140022"
+                },
+                {
+                  "charge_id": "30050",
+                  "charge_name": "Environmental fee",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 25,
+                  "total_units": 2,
+                  "charge_cost": 50,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40HC",
+                  "global_charge_id": "",
+                  "customer_currency_cost": 3483.3474735,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 50,
+                  "id": "5c335c33ad334f1fae140023"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "msr_rates",
+              "_id": "5c335c33ad334f1fae140030",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 108,
+              "sub_vendor_id": 2,
+              "service_type": "",
+              "via_route": "DIRECT",
+              "transit_time": "25",
+              "contract_number": "",
+              "remarks": "EBS USD 55/TEU +ENS USD25 -Haz Surcharge -\n$100/20' & $100/40' & F/R & O/T Surcharge -\n$300/Teu",
+              "inclusions": "",
+              "expiry": "2020-01-01T00:00:00.000Z",
+              "other_charges": "",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 0,
+                "40GP": 1,
+                "40HC": 1
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 148390.6023711,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 2130,
+              "leg_currency": "USD",
+              "batchcode": "yuVmUSZkIXv8eUIdN1S2jtXpxsPWuQtY27sMvFfG",
+              "vendor": {
+                "vendor_name": "FWDA"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "CMACGM",
+                "carrier_code": "CMDU"
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "2",
+                    "service_type": "",
+                    "via_route": "DIRECT",
+                    "transit_time": "25",
+                    "contract_number": "",
+                    "remarks": "EBS USD 55/TEU +ENS USD25 -Haz Surcharge -\n$100/20' & $100/40' & F/R & O/T Surcharge -\n$300/Teu",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 0,
+                      "40GP": 1,
+                      "40HC": 1
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 148454.71,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 2130,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "yuVmUSZkIXv8eUIdN1S2jtXpxsPWuQtY27sMvFfG",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "CMACGM",
+                      "carrier_code": "CMDU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 575,
+                        "total_units": 1,
+                        "charge_cost": 575,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 40075.802509233,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 575
+                      },
+                      {
+                        "charge_id": "30008",
+                        "charge_name": "Emergency Bunker Surcharge (EBS)",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 110,
+                        "total_units": 1,
+                        "charge_cost": 110,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1690",
+                        "customer_currency_cost": 7666.6752626359,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 110
+                      },
+                      {
+                        "charge_id": "30050",
+                        "charge_name": "Environmental fee",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 25,
+                        "total_units": 1,
+                        "charge_cost": 25,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "",
+                        "customer_currency_cost": 1742.4261960536,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 25
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 575,
+                        "total_units": 2,
+                        "charge_cost": 1150,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40HC",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 80151.605018466,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 1150
+                      },
+                      {
+                        "charge_id": "30008",
+                        "charge_name": "Emergency Bunker Surcharge (EBS)",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 110,
+                        "total_units": 2,
+                        "charge_cost": 220,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40HC",
+                        "global_charge_id": "FBMT1690",
+                        "customer_currency_cost": 15333.350525272,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 220
+                      },
+                      {
+                        "charge_id": "30050",
+                        "charge_name": "Environmental fee",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 25,
+                        "total_units": 2,
+                        "charge_cost": 50,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40HC",
+                        "global_charge_id": "",
+                        "customer_currency_cost": 3484.8523921072,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 50
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "2",
+                    "service_type": "",
+                    "via_route": "DIRECT",
+                    "transit_time": "25",
+                    "contract_number": "",
+                    "remarks": "EBS USD 55/TEU +ENS USD25 -Haz Surcharge -\n$100/20' & $100/40' & F/R & O/T Surcharge -\n$300/Teu",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 0,
+                      "40GP": 1,
+                      "40HC": 1
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 148454.71,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 2130,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "yuVmUSZkIXv8eUIdN1S2jtXpxsPWuQtY27sMvFfG",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "CMACGM",
+                      "carrier_code": "CMDU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 575,
+                        "total_units": 1,
+                        "charge_cost": 575,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 40075.802509233,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 575
+                      },
+                      {
+                        "charge_id": "30008",
+                        "charge_name": "Emergency Bunker Surcharge (EBS)",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 110,
+                        "total_units": 1,
+                        "charge_cost": 110,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1690",
+                        "customer_currency_cost": 7666.6752626359,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 110
+                      },
+                      {
+                        "charge_id": "30050",
+                        "charge_name": "Environmental fee",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 25,
+                        "total_units": 1,
+                        "charge_cost": 25,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "",
+                        "customer_currency_cost": 1742.4261960536,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 25
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 575,
+                        "total_units": 2,
+                        "charge_cost": 1150,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40HC",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 80151.605018466,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 1150
+                      },
+                      {
+                        "charge_id": "30008",
+                        "charge_name": "Emergency Bunker Surcharge (EBS)",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 110,
+                        "total_units": 2,
+                        "charge_cost": 220,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40HC",
+                        "global_charge_id": "FBMT1690",
+                        "customer_currency_cost": 15333.350525272,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 220
+                      },
+                      {
+                        "charge_id": "30050",
+                        "charge_name": "Environmental fee",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 25,
+                        "total_units": 2,
+                        "charge_cost": 50,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40HC",
+                        "global_charge_id": "",
+                        "customer_currency_cost": 3484.8523921072,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 50
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            },
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=HLCU&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": false,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 0.1,
+                  "total_units": 2,
+                  "charge_cost": 0.2,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 13.933389894,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 0.2,
+                  "id": "5c335c33ad334f1fae140024"
+                },
+                {
+                  "charge_id": "30002",
+                  "charge_name": "Bunker Adjustment Charge (BAF)",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 0.1,
+                  "total_units": 2,
+                  "charge_cost": 0.2,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1740",
+                  "customer_currency_cost": 13.933389894,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 0.2,
+                  "id": "5c335c33ad334f1fae140025"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "msr_rates",
+              "_id": "5c335c33ad334f1fae140031",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 108,
+              "sub_vendor_id": 3,
+              "service_type": "CY / CY",
+              "via_route": "",
+              "transit_time": "",
+              "contract_number": "11319303",
+              "remarks": "Roam",
+              "inclusions": "DPA,OPA,SBF,",
+              "expiry": "2020-01-01T00:00:00.000Z",
+              "other_charges": "",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 1,
+                "40GP": 0,
+                "40HC": 0
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 27.866779788,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 0.4,
+              "leg_currency": "USD",
+              "batchcode": "rvdPIfTXuDuCl4Xao7EFoSZyBfBk1ZbvsaIzxzBX",
+              "vendor": {
+                "vendor_name": "FWDA"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "HAPAG",
+                "carrier_code": "HLCU"
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "3",
+                    "service_type": "CY / CY",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "11319303",
+                    "remarks": "Roam",
+                    "inclusions": "DPA,OPA,SBF,",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 27.88,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 0.4,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "rvdPIfTXuDuCl4Xao7EFoSZyBfBk1ZbvsaIzxzBX",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "HAPAG",
+                      "carrier_code": "HLCU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 0.1,
+                        "total_units": 2,
+                        "charge_cost": 0.2,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 13.939409568429,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 0.2
+                      },
+                      {
+                        "charge_id": "30002",
+                        "charge_name": "Bunker Adjustment Charge (BAF)",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 0.1,
+                        "total_units": 2,
+                        "charge_cost": 0.2,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1740",
+                        "customer_currency_cost": 13.939409568429,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 0.2
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=HLCU&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "3",
+                    "service_type": "CY / CY",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "11319303",
+                    "remarks": "Roam",
+                    "inclusions": "DPA,OPA,SBF,",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 27.88,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 0.4,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "rvdPIfTXuDuCl4Xao7EFoSZyBfBk1ZbvsaIzxzBX",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "HAPAG",
+                      "carrier_code": "HLCU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 0.1,
+                        "total_units": 2,
+                        "charge_cost": 0.2,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 13.939409568429,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 0.2
+                      },
+                      {
+                        "charge_id": "30002",
+                        "charge_name": "Bunker Adjustment Charge (BAF)",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 0.1,
+                        "total_units": 2,
+                        "charge_cost": 0.2,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1740",
+                        "customer_currency_cost": 13.939409568429,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 0.2
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=HLCU&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            },
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=MAEU&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": false,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 1778,
+                  "total_units": 2,
+                  "charge_cost": 3556,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 247735.67231532,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 3556,
+                  "id": "5c335c33ad334f1fae140026"
+                },
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 2277,
+                  "total_units": 1,
+                  "charge_cost": 2277,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 158631.64394319,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 2277,
+                  "id": "5c335c33ad334f1fae140027"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "msr_rates",
+              "_id": "5c335c33ad334f1fae140032",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 108,
+              "sub_vendor_id": 31,
+              "service_type": "",
+              "via_route": "",
+              "transit_time": "",
+              "contract_number": "",
+              "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+              "inclusions": "",
+              "expiry": "2020-01-01T00:00:00.000Z",
+              "other_charges": "",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 1,
+                "40GP": 1,
+                "40HC": 0
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 406367.31625851,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 5833,
+              "leg_currency": "USD",
+              "batchcode": "uZflGJ9OoQNtOCWdtBt95TUdk1PLLNLDtYPbYbLG",
+              "vendor": {
+                "vendor_name": "FWDA"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "MAERSK",
+                "carrier_code": "MAEU"
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "31",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "",
+                    "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 1,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 406542.88,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 5833,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "uZflGJ9OoQNtOCWdtBt95TUdk1PLLNLDtYPbYbLG",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "MAERSK",
+                      "carrier_code": "MAEU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 1778,
+                        "total_units": 2,
+                        "charge_cost": 3556,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 247842.70212667,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 3556
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2277,
+                        "total_units": 1,
+                        "charge_cost": 2277,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 158700.17793656,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 2277
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=MAEU&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "31",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "",
+                    "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 1,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 406542.88,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 5833,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "uZflGJ9OoQNtOCWdtBt95TUdk1PLLNLDtYPbYbLG",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "MAERSK",
+                      "carrier_code": "MAEU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 1778,
+                        "total_units": 2,
+                        "charge_cost": 3556,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 247842.70212667,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 3556
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2277,
+                        "total_units": 1,
+                        "charge_cost": 2277,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 158700.17793656,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 2277
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=MAEU&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            },
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=KMTC&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": true,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 100,
+                  "total_units": 2,
+                  "charge_cost": 200,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 13933.389894,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 200,
+                  "id": "5c335c33ad334f1fae140028"
+                },
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 200,
+                  "total_units": 1,
+                  "charge_cost": 200,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 13933.389894,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 200,
+                  "id": "5c335c33ad334f1fae140029"
+                },
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 300,
+                  "total_units": 2,
+                  "charge_cost": 600,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40HC",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 41800.169682,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 600,
+                  "id": "5c335c33ad334f1fae14002a"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "msr_rates",
+              "_id": "5c335c33ad334f1fae140033",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 108,
+              "sub_vendor_id": 32,
+              "service_type": "CY / CY",
+              "via_route": "",
+              "transit_time": "",
+              "contract_number": "11319303",
+              "remarks": "",
+              "inclusions": "DPA,OPA,SBF,",
+              "expiry": "2020-01-01T00:00:00.000Z",
+              "other_charges": "",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 1,
+                "40GP": 1,
+                "40HC": 1
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 69666.94947,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 1000,
+              "leg_currency": "USD",
+              "batchcode": "q0eNLJMXsQm9EtWwZmxCo9vIVszc1pRJJni50mow",
+              "vendor": {
+                "vendor_name": "FWDA"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "KMTC",
+                "carrier_code": "KMTC"
+              },
+              "special_meta": {
+                "special_qty_basis": "TEUs",
+                "special_total_qty": null,
+                "special_qty_rem": null,
+                "max_qty_per_shipment": null
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "32",
+                    "service_type": "CY / CY",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "11319303",
+                    "remarks": "",
+                    "inclusions": "DPA,OPA,SBF,",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 1,
+                      "40HC": 1
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 69697.05,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 1000,
+                    "leg_currency": "USD",
+                    "is_special": 1,
+                    "batchcode": "q0eNLJMXsQm9EtWwZmxCo9vIVszc1pRJJni50mow",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "KMTC",
+                      "carrier_code": "KMTC"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 100,
+                        "total_units": 2,
+                        "charge_cost": 200,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 13939.409568429,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 200
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 200,
+                        "total_units": 1,
+                        "charge_cost": 200,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 13939.409568429,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 200
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 300,
+                        "total_units": 2,
+                        "charge_cost": 600,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40HC",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 41818.228705287,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 600
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=KMTC&from_date=2019-01-14"
+                    },
+                    "special_meta": {
+                      "special_qty_basis": "TEUs",
+                      "special_total_qty": null,
+                      "special_qty_rem": null,
+                      "max_qty_per_shipment": null
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "32",
+                    "service_type": "CY / CY",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "11319303",
+                    "remarks": "",
+                    "inclusions": "DPA,OPA,SBF,",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 1,
+                      "40HC": 1
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 69697.05,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 1000,
+                    "leg_currency": "USD",
+                    "is_special": 1,
+                    "batchcode": "q0eNLJMXsQm9EtWwZmxCo9vIVszc1pRJJni50mow",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "KMTC",
+                      "carrier_code": "KMTC"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 100,
+                        "total_units": 2,
+                        "charge_cost": 200,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 13939.409568429,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 200
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 200,
+                        "total_units": 1,
+                        "charge_cost": 200,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 13939.409568429,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 200
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 300,
+                        "total_units": 2,
+                        "charge_cost": 600,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40HC",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 41818.228705287,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 600
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=KMTC&from_date=2019-01-14"
+                    },
+                    "special_meta": {
+                      "special_qty_basis": "TEUs",
+                      "special_total_qty": null,
+                      "special_qty_rem": null,
+                      "max_qty_per_shipment": null
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            },
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=SAFM&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": false,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 1779,
+                  "total_units": 2,
+                  "charge_cost": 3558,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 247875.00621426,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 3558,
+                  "id": "5c335c33ad334f1fae14002b"
+                },
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 2277,
+                  "total_units": 1,
+                  "charge_cost": 2277,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "40GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 158631.64394319,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 2277,
+                  "id": "5c335c33ad334f1fae14002c"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "msr_rates",
+              "_id": "5c335c33ad334f1fae140034",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 108,
+              "sub_vendor_id": 4,
+              "service_type": "",
+              "via_route": "",
+              "transit_time": "",
+              "contract_number": "",
+              "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+              "inclusions": "",
+              "expiry": "2020-01-01T00:00:00.000Z",
+              "other_charges": "",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 1,
+                "40GP": 1,
+                "40HC": 0
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 406506.65015745,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 5835,
+              "leg_currency": "USD",
+              "batchcode": "gR4bJFx6sGqgVkW8OI4QnqrAdim2mpsZXTR3F5eK",
+              "vendor": {
+                "vendor_name": "FWDA"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "SAFMARINE",
+                "carrier_code": "SAFM"
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "4",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "",
+                    "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 1,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 406682.27,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 5835,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "gR4bJFx6sGqgVkW8OI4QnqrAdim2mpsZXTR3F5eK",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "SAFMARINE",
+                      "carrier_code": "SAFM"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 1779,
+                        "total_units": 2,
+                        "charge_cost": 3558,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 247982.09622235,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 3558
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2277,
+                        "total_units": 1,
+                        "charge_cost": 2277,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 158700.17793656,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 2277
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=SAFM&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "4",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "",
+                    "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 1,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 406682.27,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 5835,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "gR4bJFx6sGqgVkW8OI4QnqrAdim2mpsZXTR3F5eK",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "SAFMARINE",
+                      "carrier_code": "SAFM"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 1779,
+                        "total_units": 2,
+                        "charge_cost": 3558,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 247982.09622235,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 3558
+                      },
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2277,
+                        "total_units": 1,
+                        "charge_cost": 2277,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "40GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 158700.17793656,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 2277
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=SAFM&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            },
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": false,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 1779,
+                  "total_units": 2,
+                  "charge_cost": 3558,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 247875.00621426,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 3558,
+                  "id": "5c335c33ad334f1fae14002d"
+                },
+                {
+                  "charge_id": "30014",
+                  "charge_name": "Destination Freight Collect service fee Per container",
+                  "charge_description": "",
+                  "charge_basis": "per B/L",
+                  "per_unit_rate": 100,
+                  "total_units": 1,
+                  "charge_cost": 100,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "",
+                  "customer_currency_cost": 6966.694947,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 100,
+                  "id": "5c335c33ad334f1fae14002e"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "msr_rates",
+              "_id": "5c335c33ad334f1fae140035",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 108,
+              "sub_vendor_id": 5,
+              "service_type": "",
+              "via_route": "",
+              "transit_time": "",
+              "contract_number": "",
+              "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+              "inclusions": "",
+              "expiry": "2020-01-01T00:00:00.000Z",
+              "other_charges": "",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 1,
+                "40GP": 0,
+                "40HC": 0
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 254841.70116126,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 3658,
+              "leg_currency": "USD",
+              "batchcode": "gR4bJFx6sGqgVkW8OI4QnqrAdim2mpsZXTR3F5eK",
+              "vendor": {
+                "vendor_name": "FWDA"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "INDIGO AIRLINE.",
+                "carrier_code": null
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "5",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "",
+                    "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 254951.8,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 3658,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "gR4bJFx6sGqgVkW8OI4QnqrAdim2mpsZXTR3F5eK",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "INDIGO AIRLINE.",
+                      "carrier_code": null
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 1779,
+                        "total_units": 2,
+                        "charge_cost": 3558,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 247982.09622235,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 3558
+                      },
+                      {
+                        "charge_id": "30014",
+                        "charge_name": "Destination Freight Collect service fee Per container",
+                        "charge_description": "",
+                        "charge_basis": "per B/L",
+                        "per_unit_rate": 100,
+                        "total_units": 1,
+                        "charge_cost": 100,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "",
+                        "customer_currency_cost": 6969.7047842145,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 100
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "108",
+                    "sub_vendor_id": "5",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "",
+                    "remarks": "Subj to ISPS USD13, SEAL USD6, Both end THC",
+                    "inclusions": "",
+                    "expiry": "2020-01-01",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 254951.8,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 3658,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "gR4bJFx6sGqgVkW8OI4QnqrAdim2mpsZXTR3F5eK",
+                    "vendor": {
+                      "vendor_name": "FWDA"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "INDIGO AIRLINE.",
+                      "carrier_code": null
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 1779,
+                        "total_units": 2,
+                        "charge_cost": 3558,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 247982.09622235,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 3558
+                      },
+                      {
+                        "charge_id": "30014",
+                        "charge_name": "Destination Freight Collect service fee Per container",
+                        "charge_description": "",
+                        "charge_basis": "per B/L",
+                        "per_unit_rate": 100,
+                        "total_units": 1,
+                        "charge_cost": 100,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "",
+                        "customer_currency_cost": 6969.7047842145,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 100
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "msr_rates",
+                "network_id": null,
+                "vendor_id": 108
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae14002f",
+                    "vendor_id": 108,
+                    "sub_vendor_id": 2
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae14004d"
+            },
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "msr_rates",
+                "network_id": null,
+                "vendor_id": 108
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae140030",
+                    "vendor_id": 108,
+                    "sub_vendor_id": 2
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae14004c"
+            },
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "msr_rates",
+                "network_id": null,
+                "vendor_id": 108
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae140031",
+                    "vendor_id": 108,
+                    "sub_vendor_id": 3
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae14004b"
+            },
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "msr_rates",
+                "network_id": null,
+                "vendor_id": 108
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae140032",
+                    "vendor_id": 108,
+                    "sub_vendor_id": 31
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae14004a"
+            },
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "msr_rates",
+                "network_id": null,
+                "vendor_id": 108
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae140033",
+                    "vendor_id": 108,
+                    "sub_vendor_id": 32
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae140049"
+            },
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "msr_rates",
+                "network_id": null,
+                "vendor_id": 108
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae140034",
+                    "vendor_id": 108,
+                    "sub_vendor_id": 4
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae140048"
+            },
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "msr_rates",
+                "network_id": null,
+                "vendor_id": 108
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae140035",
+                    "vendor_id": 108,
+                    "sub_vendor_id": 5
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae140047"
+            }
+          ]
+        },
+        "url": "https://devapi.freightbro.com/api/get-rates?id=5c335c0cad334f1fae13ffad&type=msr&nearby_only=false"
+      },
+      "network_rates": {
+        "data": {
+          "delta": {
+            "url": null,
+            "data": null
+          },
+          "rates": [
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": false,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 330,
+                  "total_units": 2,
+                  "charge_cost": 660,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 45980.1866502,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 660,
+                  "id": "5c335c33ad334f1fae140036"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "network_rates",
+              "_id": "5c335c33ad334f1fae14003a",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 109,
+              "sub_vendor_id": 2,
+              "service_type": " ",
+              "via_route": " ",
+              "transit_time": " ",
+              "contract_number": " ",
+              "remarks": "",
+              "inclusions": " ",
+              "expiry": "2019-12-30T00:00:00.000Z",
+              "other_charges": " ",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 1,
+                "40GP": 0,
+                "40HC": 0
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 45980.1866502,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 660,
+              "leg_currency": "USD",
+              "batchcode": "UooqwXffeQ3KMGsJSubgKvpE5pVhwh6uXTvogf5g",
+              "vendor": {
+                "vendor_name": "FWDB"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "CMACGM",
+                "carrier_code": "CMDU"
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c017f9e591a8d3238806c25",
+                    "modifiedBy": "814e4890-ac9e-11e8-93bb-d7e3ed1269bb",
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "LANE",
+                        "lane": "ad63e2a0-f4cc-11e8-99ce-c16dd04c83eb"
+                      }
+                    ],
+                    "name": "lane bof@10%",
+                    "type": "standard",
+                    "createdBy": "814e4890-ac9e-11e8-93bb-d7e3ed1269bb",
+                    "owner": "dcb14d10-ac60-11e8-9d82-dfad7267ccf5",
+                    "rateChange": {
+                      "type": "MARGIN",
+                      "rateType": "FCL_L3",
+                      "charges": {
+                        "30001": 10
+                      }
+                    },
+                    "createdAt": "2018-11-30T18:21:18.745Z",
+                    "__v": 0,
+                    "level": 1
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "2",
+                    "service_type": " ",
+                    "via_route": " ",
+                    "transit_time": " ",
+                    "contract_number": " ",
+                    "remarks": "",
+                    "inclusions": " ",
+                    "expiry": "2019-12-30",
+                    "other_charges": " ",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 41818.23,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 600,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "UooqwXffeQ3KMGsJSubgKvpE5pVhwh6uXTvogf5g",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "CMACGM",
+                      "carrier_code": "CMDU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 300,
+                        "total_units": 2,
+                        "charge_cost": 600,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 41818.228705287,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 600
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "2",
+                    "service_type": " ",
+                    "via_route": " ",
+                    "transit_time": " ",
+                    "contract_number": " ",
+                    "remarks": "",
+                    "inclusions": " ",
+                    "expiry": "2019-12-30",
+                    "other_charges": " ",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 46000.051575816,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 660,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "UooqwXffeQ3KMGsJSubgKvpE5pVhwh6uXTvogf5g",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "CMACGM",
+                      "carrier_code": "CMDU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 330,
+                        "total_units": 2,
+                        "charge_cost": 660,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 46000.051575816,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 660
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "dcb14d10-ac60-11e8-9d82-dfad7267ccf5"
+                },
+                {
+                  "level": 1,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0,
+                    "level": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "2",
+                    "service_type": " ",
+                    "via_route": " ",
+                    "transit_time": " ",
+                    "contract_number": " ",
+                    "remarks": "",
+                    "inclusions": " ",
+                    "expiry": "2019-12-30",
+                    "other_charges": " ",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 46000.051575816,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 660,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "UooqwXffeQ3KMGsJSubgKvpE5pVhwh6uXTvogf5g",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "CMACGM",
+                      "carrier_code": "CMDU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 330,
+                        "total_units": 2,
+                        "charge_cost": 660,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 46000.051575816,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 660
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "2",
+                    "service_type": " ",
+                    "via_route": " ",
+                    "transit_time": " ",
+                    "contract_number": " ",
+                    "remarks": "",
+                    "inclusions": " ",
+                    "expiry": "2019-12-30",
+                    "other_charges": " ",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 46000.051575816,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 660,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "UooqwXffeQ3KMGsJSubgKvpE5pVhwh6uXTvogf5g",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "CMACGM",
+                      "carrier_code": "CMDU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 330,
+                        "total_units": 2,
+                        "charge_cost": 660,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 46000.051575816,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 660
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=CMDU&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            },
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=MAEU&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": false,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 2585,
+                  "total_units": 2,
+                  "charge_cost": 5170,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 360178.1287599,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 5170,
+                  "id": "5c335c33ad334f1fae140037"
+                },
+                {
+                  "charge_id": "30004",
+                  "charge_name": "Low Sulphur Surcharge",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 60,
+                  "total_units": 2,
+                  "charge_cost": 120,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1900",
+                  "customer_currency_cost": 8360.0339364,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 120,
+                  "id": "5c335c33ad334f1fae140038"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "network_rates",
+              "_id": "5c335c33ad334f1fae14003b",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 109,
+              "sub_vendor_id": 31,
+              "service_type": "CY / CY",
+              "via_route": "",
+              "transit_time": "",
+              "contract_number": "0",
+              "remarks": "",
+              "inclusions": "DHC,DPA,OPA,SBF,",
+              "expiry": "2019-12-30T00:00:00.000Z",
+              "other_charges": "",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 1,
+                "40GP": 0,
+                "40HC": 0
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 368538.1626963,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 5290,
+              "leg_currency": "USD",
+              "batchcode": "Mkvm5BMrGa1vs6d3yjkxPau60dQF2EIopW256Jfk",
+              "vendor": {
+                "vendor_name": "FWDB"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "MAERSK",
+                "carrier_code": "MAEU"
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c017f9e591a8d3238806c25",
+                    "modifiedBy": "814e4890-ac9e-11e8-93bb-d7e3ed1269bb",
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "LANE",
+                        "lane": "ad63e2a0-f4cc-11e8-99ce-c16dd04c83eb"
+                      }
+                    ],
+                    "name": "lane bof@10%",
+                    "type": "standard",
+                    "createdBy": "814e4890-ac9e-11e8-93bb-d7e3ed1269bb",
+                    "owner": "dcb14d10-ac60-11e8-9d82-dfad7267ccf5",
+                    "rateChange": {
+                      "type": "MARGIN",
+                      "rateType": "FCL_L3",
+                      "charges": {
+                        "30001": 10
+                      }
+                    },
+                    "createdAt": "2018-11-30T18:21:18.745Z",
+                    "__v": 0,
+                    "level": 1
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "31",
+                    "service_type": "CY / CY",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "0",
+                    "remarks": "",
+                    "inclusions": "DHC,DPA,OPA,SBF,",
+                    "expiry": "2019-12-30",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 335939.77,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 4820,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "Mkvm5BMrGa1vs6d3yjkxPau60dQF2EIopW256Jfk",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "MAERSK",
+                      "carrier_code": "MAEU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2350,
+                        "total_units": 2,
+                        "charge_cost": 4700,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 327576.12485808,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 4700
+                      },
+                      {
+                        "charge_id": "30004",
+                        "charge_name": "Low Sulphur Surcharge",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 60,
+                        "total_units": 2,
+                        "charge_cost": 120,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1900",
+                        "customer_currency_cost": 8363.6457410573,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 120
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=MAEU&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "31",
+                    "service_type": "CY / CY",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "0",
+                    "remarks": "",
+                    "inclusions": "DHC,DPA,OPA,SBF,",
+                    "expiry": "2019-12-30",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 368697.38308495,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 5290,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "Mkvm5BMrGa1vs6d3yjkxPau60dQF2EIopW256Jfk",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "MAERSK",
+                      "carrier_code": "MAEU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2585,
+                        "total_units": 2,
+                        "charge_cost": 5170,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 360333.73734389,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 5170
+                      },
+                      {
+                        "charge_id": "30004",
+                        "charge_name": "Low Sulphur Surcharge",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 60,
+                        "total_units": 2,
+                        "charge_cost": 120,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1900",
+                        "customer_currency_cost": 8363.6457410573,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 120
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=MAEU&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "dcb14d10-ac60-11e8-9d82-dfad7267ccf5"
+                },
+                {
+                  "level": 1,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0,
+                    "level": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "31",
+                    "service_type": "CY / CY",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "0",
+                    "remarks": "",
+                    "inclusions": "DHC,DPA,OPA,SBF,",
+                    "expiry": "2019-12-30",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 368697.38308495,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 5290,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "Mkvm5BMrGa1vs6d3yjkxPau60dQF2EIopW256Jfk",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "MAERSK",
+                      "carrier_code": "MAEU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2585,
+                        "total_units": 2,
+                        "charge_cost": 5170,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 360333.73734389,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 5170
+                      },
+                      {
+                        "charge_id": "30004",
+                        "charge_name": "Low Sulphur Surcharge",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 60,
+                        "total_units": 2,
+                        "charge_cost": 120,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1900",
+                        "customer_currency_cost": 8363.6457410573,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 120
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=MAEU&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "31",
+                    "service_type": "CY / CY",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "0",
+                    "remarks": "",
+                    "inclusions": "DHC,DPA,OPA,SBF,",
+                    "expiry": "2019-12-30",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 368697.38308495,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 5290,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "Mkvm5BMrGa1vs6d3yjkxPau60dQF2EIopW256Jfk",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "MAERSK",
+                      "carrier_code": "MAEU"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 2585,
+                        "total_units": 2,
+                        "charge_cost": 5170,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 360333.73734389,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 5170
+                      },
+                      {
+                        "charge_id": "30004",
+                        "charge_name": "Low Sulphur Surcharge",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 60,
+                        "total_units": 2,
+                        "charge_cost": 120,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1900",
+                        "customer_currency_cost": 8363.6457410573,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 120
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=MAEU&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            },
+            {
+              "schedule": {
+                "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=KMTC&from_date=2019-01-14",
+                "data": []
+              },
+              "analytics": {
+                "graph": {
+                  "url": null
+                }
+              },
+              "is_special": false,
+              "charges": [
+                {
+                  "charge_id": "30001",
+                  "charge_name": "Basic Ocean Freight",
+                  "charge_description": "",
+                  "charge_basis": "per equipment",
+                  "per_unit_rate": 110,
+                  "total_units": 2,
+                  "charge_cost": 220,
+                  "charge_currency": "USD",
+                  "minimum_charge_cost": "NA",
+                  "container_type": "20GP",
+                  "global_charge_id": "FBMT1510",
+                  "customer_currency_cost": 15326.7288834,
+                  "created_at": "2019-01-07 19:33:30",
+                  "updated_at": "2019-01-07 19:33:30",
+                  "leg_currency_cost": 220,
+                  "id": "5c335c33ad334f1fae140039"
+                }
+              ],
+              "manual": 0,
+              "airline_code": null,
+              "slab_currency": null,
+              "slab": null,
+              "rate_type": "network_rates",
+              "_id": "5c335c33ad334f1fae14003c",
+              "leg_name": "Main Freight",
+              "leg_code": "l3_fcl",
+              "vendor_id": 109,
+              "sub_vendor_id": 32,
+              "service_type": "",
+              "via_route": "",
+              "transit_time": "",
+              "contract_number": "11319303",
+              "remarks": "",
+              "inclusions": "DPA,OPA,SBF,",
+              "expiry": "2019-12-30T00:00:00.000Z",
+              "other_charges": "",
+              "if_applicable_charges": "",
+              "load_stat": {
+                "20GP": 1,
+                "40GP": 0,
+                "40HC": 0
+              },
+              "global_leg_id": "l3",
+              "leg_total_cost": 15326.7288834,
+              "leg_total_currency": "INR",
+              "leg_currency_cost": 220,
+              "leg_currency": "USD",
+              "batchcode": "mnS5sjbSQ283T9SzauKDvQa5x1KAwMLNfsyKkE6Z",
+              "vendor": {
+                "vendor_name": "FWDB"
+              },
+              "sub_vendor": {
+                "sub_vendor_name": "KMTC",
+                "carrier_code": "KMTC"
+              },
+              "modificationTrail": [
+                {
+                  "level": 0,
+                  "policy": {
+                    "_id": "5c017f9e591a8d3238806c25",
+                    "modifiedBy": "814e4890-ac9e-11e8-93bb-d7e3ed1269bb",
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "LANE",
+                        "lane": "ad63e2a0-f4cc-11e8-99ce-c16dd04c83eb"
+                      }
+                    ],
+                    "name": "lane bof@10%",
+                    "type": "standard",
+                    "createdBy": "814e4890-ac9e-11e8-93bb-d7e3ed1269bb",
+                    "owner": "dcb14d10-ac60-11e8-9d82-dfad7267ccf5",
+                    "rateChange": {
+                      "type": "MARGIN",
+                      "rateType": "FCL_L3",
+                      "charges": {
+                        "30001": 10
+                      }
+                    },
+                    "createdAt": "2018-11-30T18:21:18.745Z",
+                    "__v": 0,
+                    "level": 1
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "32",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "11319303",
+                    "remarks": "",
+                    "inclusions": "DPA,OPA,SBF,",
+                    "expiry": "2019-12-30",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 13939.41,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 200,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "mnS5sjbSQ283T9SzauKDvQa5x1KAwMLNfsyKkE6Z",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "KMTC",
+                      "carrier_code": "KMTC"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 100,
+                        "total_units": 2,
+                        "charge_cost": 200,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 13939.409568429,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 200
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=KMTC&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "32",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "11319303",
+                    "remarks": "",
+                    "inclusions": "DPA,OPA,SBF,",
+                    "expiry": "2019-12-30",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 15333.350525272,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 220,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "mnS5sjbSQ283T9SzauKDvQa5x1KAwMLNfsyKkE6Z",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "KMTC",
+                      "carrier_code": "KMTC"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 110,
+                        "total_units": 2,
+                        "charge_cost": 220,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 15333.350525272,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 220
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=KMTC&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "dcb14d10-ac60-11e8-9d82-dfad7267ccf5"
+                },
+                {
+                  "level": 1,
+                  "policy": {
+                    "_id": "5c0175aa591a8d3238806c1a",
+                    "modifiedBy": null,
+                    "expiry": null,
+                    "mode": "FCL",
+                    "rates": [
+                      {
+                        "type": "ALL_RATES"
+                      }
+                    ],
+                    "name": "Default Policy",
+                    "type": "default",
+                    "createdBy": "system",
+                    "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f",
+                    "rateChange": {
+                      "type": "DEFAULT",
+                      "rateType": "FCL_L3"
+                    },
+                    "createdAt": "2018-11-30T17:38:50.478Z",
+                    "__v": 0,
+                    "level": 0
+                  },
+                  "buy": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "32",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "11319303",
+                    "remarks": "",
+                    "inclusions": "DPA,OPA,SBF,",
+                    "expiry": "2019-12-30",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 15333.350525272,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 220,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "mnS5sjbSQ283T9SzauKDvQa5x1KAwMLNfsyKkE6Z",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "KMTC",
+                      "carrier_code": "KMTC"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 110,
+                        "total_units": 2,
+                        "charge_cost": 220,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 15333.350525272,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 220
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=KMTC&from_date=2019-01-14"
+                    }
+                  },
+                  "sell": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "vendor_id": "109",
+                    "sub_vendor_id": "32",
+                    "service_type": "",
+                    "via_route": "",
+                    "transit_time": "",
+                    "contract_number": "11319303",
+                    "remarks": "",
+                    "inclusions": "DPA,OPA,SBF,",
+                    "expiry": "2019-12-30",
+                    "other_charges": "",
+                    "if_applicable_charges": "",
+                    "load_stat": {
+                      "20GP": 1,
+                      "40GP": 0,
+                      "40HC": 0
+                    },
+                    "global_leg_id": "l3",
+                    "leg_total_cost": 15333.350525272,
+                    "leg_total_currency": "INR",
+                    "leg_currency_cost": 220,
+                    "leg_currency": "USD",
+                    "is_special": 0,
+                    "batchcode": "mnS5sjbSQ283T9SzauKDvQa5x1KAwMLNfsyKkE6Z",
+                    "vendor": {
+                      "vendor_name": "FWDB"
+                    },
+                    "sub_vendor": {
+                      "sub_vendor_name": "KMTC",
+                      "carrier_code": "KMTC"
+                    },
+                    "charges": [
+                      {
+                        "charge_id": "30001",
+                        "charge_name": "Basic Ocean Freight",
+                        "charge_description": "",
+                        "charge_basis": "per equipment",
+                        "per_unit_rate": 110,
+                        "total_units": 2,
+                        "charge_cost": 220,
+                        "charge_currency": "USD",
+                        "minimum_charge_cost": "NA",
+                        "container_type": "20GP",
+                        "global_charge_id": "FBMT1510",
+                        "customer_currency_cost": 15333.350525272,
+                        "created_at": "2019-01-07 19:33:30",
+                        "updated_at": "2019-01-07 19:33:30",
+                        "leg_currency_cost": 220
+                      }
+                    ],
+                    "schedule": {
+                      "url": "https://devapi.freightbro.com/api/schedules?from_port=INNSA&to_port=DEHAM&carrier_code=KMTC&from_date=2019-01-14"
+                    }
+                  },
+                  "owner": "af036140-ac60-11e8-ad85-bbaf46a7a17f"
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "network_rates",
+                "network_id": null,
+                "vendor_id": 109
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae14003a",
+                    "vendor_id": 109,
+                    "sub_vendor_id": 2
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae14005b"
+            },
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "network_rates",
+                "network_id": null,
+                "vendor_id": 109
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae14003b",
+                    "vendor_id": 109,
+                    "sub_vendor_id": 31
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae14005a"
+            },
+            {
+              "meta": {
+                "port_data": {
+                  "origin_port_code": "INNSA",
+                  "destination_port_code": "DEHAM"
+                },
+                "is_selected": false,
+                "selected_schedule": null,
+                "delta_percent": null,
+                "type": "network_rates",
+                "network_id": null,
+                "vendor_id": 109
+              },
+              "data": {
+                "sell_rates": null,
+                "buy_rates": {
+                  "l3_fcl": {
+                    "leg_name": "Main Freight",
+                    "leg_code": "l3_fcl",
+                    "rate_id": "5c335c33ad334f1fae14003c",
+                    "vendor_id": 109,
+                    "sub_vendor_id": 32
+                  }
+                }
+              },
+              "_id": "5c335c33ad334f1fae140059"
+            }
+          ]
+        },
+        "url": "https://devapi.freightbro.com/api/get-rates?id=5c335c0cad334f1fae13ffad&type=network&nearby_only=false"
+      },
+      "nearby_port_rates": {
+        "msr_rates": {
+          "data": {
+            "rates": [],
+            "cards": []
+          },
+          "url": "https://devapi.freightbro.com/api/get-rates?id=5c335c0cad334f1fae13ffad&type=msr&nearby_only=true"
+        },
+        "network_rates": {
+          "data": {
+            "rates": [],
+            "cards": []
+          },
+          "url": "https://devapi.freightbro.com/api/get-rates?id=5c335c0cad334f1fae13ffad&type=network&nearby_only=true"
+        }
+      },
+      "iata_rates": {
+        "data": {
+          "rates": [],
+          "cards": []
+        }
+      }
+    },
+    "is_booked": false,
+    "shipment_id": null,
+    "_id": "5c335c0cad334f1fae13ffad",
+    "__v": 0
+  }
+}
