@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="dashboard" ng-cloak>
+
 <head>
     <title>Dashboard</title>
 
@@ -15,6 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.js"></script>
     <script src="/components/dashboard/dashboard.js"></script>
 </head>
+
 <body ng-controller="dashboard">
     <header>
         <div class="search-box">
@@ -38,8 +40,11 @@
     <div ng-if="!result.length && query.length" class="query-error">
         Sorry! We couldn't find your query :( !
     </div>
+    <div ng-if="!result.length && !query.length" class="main-loader">
+        <md-progress-circular md-mode="indeterminate" md-diameter="48"></md-progress-circular>
+    </div>
     <section class="wrapper">
-        <div class="card" ng-repeat="items in result " ng-if="result.length">
+        <div class="card" ng-repeat="items in result" ng-if="result.length">
             <md-card>
                 <md-card-content>
                     <div class="expiry">
@@ -76,10 +81,27 @@
                         </div>
                     </div>
                     <div class="schedule">
-                        <div class="schedule-error">
-                            <md-progress-circular ng-if="!schedule.length" md-mode="indeterminate" md-diameter="48"></md-progress-circular>
-                            <span ng-if="schedule[$index].error">{{schedule[$index]['error'] | uppercase}}</span>
+                        <div class="schedule-error" ng-if="!schedule[$index]">
+                            <md-progress-circular  md-mode="indeterminate" md-diameter="48">  </md-progress-circular>
                         </div>
+                        <div class="row-wrapper" ng-if="!schedule[$index].error">
+                            <div class="heading">
+                                <img ng-if="schedule[$index].destinationPortName" src="/assets/images/shipping-fast-solid.svg"></i>
+                                <span ng-if="schedule[$index].destinationPortName">{{schedule[$index]['destinationPortName'] | uppercase}}</span>
+                            </div>
+                            <div class="names">
+                                <span ng-if="schedule[$index].transitTime">{{schedule[$index]['transitTime'] | uppercase}}</span>
+                            </div>
+                        </div>
+                         <div class="row-wrapper" ng-if="!schedule[$index].error">
+                            <div class="heading">
+                                <span ng-if="schedule[$index].destinationPortName">Next Sailing On</span>
+                            </div>
+                            <div class="names">
+                                <span ng-if="schedule[$index].transitTime">{{timeConversion(schedule[$index]['departureTime']) | uppercase}}</span>
+                            </div>
+                        </div>
+                            <div ng-if="schedule[$index].error" class="text-error">{{schedule[$index]['error'] | uppercase}}</div>
                     </div>
                     <div class="row-wrapper">
                         <div class="names">
@@ -101,4 +123,5 @@
         </div>
     </section>
 </body>
+
 </html>

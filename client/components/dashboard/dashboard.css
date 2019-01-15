@@ -44,6 +44,35 @@ header {
     margin: 6px auto;
 }
 
+/* Styles for Loader Element  */
+  .main-loader.ng-enter,
+.main-loader.ng-leave{
+   transition: 0.3s;
+}
+
+.main-loader{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+}
+
+.main-loader.ng-enter,
+.main-loader.ng-leave.ng-leave-active{
+   left: 0;
+   top: 0;
+   position: absolute;
+   opacity: 0;
+}
+
+.main-loader.ng-leave,
+.main-loader.ng-enter.ng-enter-active{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   opacity: 1
+}
+
+
 /* Styles for Wrapper Element  */
 
 .wrapper {
@@ -171,10 +200,18 @@ header {
 
 .schedule>.schedule-error {
     display: flex;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: normal;
     font-style: oblique;
     justify-content: center;
+}
+
+.text-error{
+    color: red;
+    padding: 30px 0px;
+    font-size: 13px;
+    text-align: center;
+    font-style: oblique;
 }
 
 /* Styles for Footer Buttons */
