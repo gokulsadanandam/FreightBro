@@ -103,9 +103,9 @@ angular.module('dashboard', ['ngAnimate', 'ngMaterial', 'ngMessages'])
 
         $http({
             method: 'GET',
-            // url: 'https://devapi.freightbro.com/api/search/5c335c0cad334f1fae13ffad'
+            url: 'https://devapi.freightbro.com/api/search/5c335c0cad334f1fae13ffad'
             // url: 'sadfasf'
-            url: '/api/data'
+            // url: '/api/data'
         }).then((reponse) => {
             let resultArray = Array()
             let jsonResponse = reponse.data.data.result_data.msr_rates.data
