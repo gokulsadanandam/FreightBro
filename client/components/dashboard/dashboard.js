@@ -49,7 +49,6 @@ angular.module('dashboard', ['ngAnimate', 'ngMaterial', 'ngMessages'])
                 url: url,
                 method: 'GET'
             }).then((response) => {
-                // console.log(response.data.data[0])
                 if (!response.data.data.length) {
                     this.data.push({
                         "error": "Schedule Not Available"
@@ -71,7 +70,6 @@ angular.module('dashboard', ['ngAnimate', 'ngMaterial', 'ngMessages'])
         }
 
         this.getData = function() {
-            console.log(this.data)
             return this.data
         }
 
@@ -104,8 +102,6 @@ angular.module('dashboard', ['ngAnimate', 'ngMaterial', 'ngMessages'])
         $http({
             method: 'GET',
             url: 'https://devapi.freightbro.com/api/search/5c335c0cad334f1fae13ffad'
-            // url: 'sadfasf'
-            // url: '/api/data'
         }).then((reponse) => {
             let resultArray = Array()
             let jsonResponse = reponse.data.data.result_data.msr_rates.data
